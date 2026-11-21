@@ -1,0 +1,106 @@
+@import url('https://googleapis.com');
+
+body 
+{ 
+	background-color: #fbdde4;
+	font-family:'Questal', sans-serif;
+	text-align: center; }
+
+h1 {
+    font-family: 'Instrument Serif', serif;
+    color: #3D3D3D;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px #F7F7F7;
+    font-weight: 500; }
+
+h2 {
+    font-family: 'Instrument Serif', serif;
+    color: #3D3D3D;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px #F7F7F7;
+    font-weight: 400; }
+
+h3 {
+    font-family: 'Instrument Serif', serif;
+    color: #3D3D3D;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px #F7F7F7;} 
+
+h4 {
+    font-family: 'Instrument Serif', serif;
+    color: #3D3D3D;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px #F7F7F7;} 
+
+ p {
+ 	font-size: 14px;
+ 	font-family: 'Questal', sans-serif;
+ 	color: #3D3D3D;
+ 	text-shadow: 1px 1px 4px #F7F7F7; 
+ 	text-align: center;}
+
+ ul {
+ 	font-size: 14px;
+ 	font-family: 'Questal', sans-serif;
+ 	color: #3D3D3D;
+ 	text-shadow: 1px 1px 4px #F7F7F7; 
+ 	text-align: justify;}
+
+.section {
+    width: 555px;
+    max-width: 90%;
+    margin: 1.5rem auto;
+    background-color: #adcefd;
+    border: 2px solid #d9d9d9;
+    border-radius: 1.25rem;
+    padding: 1.5rem; }
+
+
+ .profile-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 5px double #adcefd;}
+
+
+.container {
+  display: flex;
+  background-color: #adcefd;
+}
+
+.container div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px; }
+
+@media (max-width: 600px) {
+
+    body {
+    padding: 1rem;}
+
+    .container {
+        flex-direction: column;
+        text-align: center; }
+
+	.container div {
+  		background-color: #f1f1f1;
+  		margin: 5px;
+  		padding: 10px; }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px; }
+
+    h1 {
+        font-size: 2.5rem; }
+
+    h2 {
+        font-size: 2rem; }
+
+    h3 {
+    	font-size: 1.5rem; } 
+
+    h4 {
+        font-size: 1rem; } 
+}
